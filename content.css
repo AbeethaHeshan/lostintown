@@ -78,7 +78,7 @@
         #mobile_img_logo{
             display:block !important;
             position: absolute;
-
+            width: 320px;
         }
 
         #banner{
