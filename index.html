@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lost In Town</title>
+    
+    <link rel="preload" href="Desktop_Coming_Soon.png" as="image">
     <link rel="preload" href="content.css" as="style">
-    <link rel="preload" href="global.css" as="style">
+    <link rel="preload" href="content.css" as="style">
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="content.css">
 </head>
 <body>
-    <div class="flex justify-center align-center vh-100 " id="container_main">    
-          <div class="imgContainer flex justify-center align-center" >
+    <div class="flex justify-center align-center vh-100">    
+          <!-- <div class="imgContainer flex justify-center align-center" >
              <div id="container-img" />
-          </div>
+          </div> -->
+          <img src="Desktop_Coming_Soon.png" id="img_bg"/>
+          <img src="desktop_logo.png" id="img_logo"  width="500"/>
     </div>
-    <div class="rotated-right-4 flex align-center justify-center" id="banner" >
+    <div class="rotated-right-4" id="banner" >
         <div class="scroll-left flex align-center justify-center">
             <span id="coming-soon-text"></span>  
         </div>

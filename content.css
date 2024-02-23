@@ -21,6 +21,10 @@
     overflow: hidden; 
     background: #FFEC64;
     height: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
   }
 
 
@@ -47,6 +51,18 @@
         100% {
             transform: translateX(-20%);
         }
+  }
+
+
+  #img_bg{
+      position: absolute;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-position:cover;
+  }
+
+  #img_logo{
+     position: absolute;
   }
     
   @media (max-width: 320px){
