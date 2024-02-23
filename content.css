@@ -59,6 +59,8 @@
       overflow: hidden;
       background-repeat: no-repeat;
       background-position:cover;
+      width: 100vw;
+      height: 100vh;
   }
 
   #img_logo{
