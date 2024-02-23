@@ -1,0 +1,135 @@
+    #container_main{
+        background-image: url(/assets/images/Desktop_Coming_Soon.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center ;
+    }
+
+ #container-img{
+        background-image: url(/assets/images/desktop_logo.png) ;
+        width: 400px;
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+  }
+
+    
+  #banner{
+    width: 100%;
+    position: absolute;
+    overflow: hidden; 
+    background: #FFEC64;
+    height: 30px;
+  }
+
+
+
+  span{
+    font-family: 'PPFraktionSans-Bold';
+    font-size: large;
+    margin-left: 13px;
+  }
+
+  .scroll-left {
+            display: inline-block;
+            animation: scrollText 30s infinite linear ; 
+            position: absolute;
+            overflow:hidden;
+            white-space:nowrap;
+  }
+    
+  @keyframes scrollText {
+
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-20%);
+        }
+  }
+    
+  @media (max-width: 320px){
+
+        #container_main{
+            background-image: url(/assets/images/Mobile_Coming_Soon.png);
+        }
+
+        #container-img{
+            background-image: url(/assets/images/mobile_logo.png) ;
+            width: 200px;
+            height: 200px;
+        }
+
+        #banner{
+            height: 25px;
+          }
+   }
+
+
+   @media (min-width: 320px) and (max-width:375px) {
+
+        #container_main{
+            background-image: url(/assets/images/Mobile_Coming_Soon.png);
+        }
+
+        #container-img{
+            background-image: url(/assets/images/mobile_logo.png) ;
+            width:200px;
+            height: 200px;
+        }
+
+        #banner{
+            height: 25px;
+        }
+        
+  }
+  
+  
+  @media (min-width: 375px) and (max-width:425px) {
+
+        #container_main{
+            background-image: url(/assets/images/Mobile_Coming_Soon.png);
+        }
+
+        #container-img{
+            background-image: url(/assets/images/mobile_logo.png) ;
+            width: 250px;
+            height: 250px;
+        }
+
+        #banner{
+            height: 25px;
+        }
+  }
+
+  @media (min-width: 425px) and (max-width:768px) {
+
+    #container_main{
+        background-image: url(/assets/images/Mobile_Coming_Soon.png);
+    }
+
+    #container-img{
+        background-image: url(/assets/images/mobile_logo.png) ;
+        width: 300px;
+        height: 300px;
+    }
+
+  } 
+
+   @media (min-width: 425px) and (max-width:768px) {
+
+        #container_main{
+            background-image: url(/assets/images/Mobile_Coming_Soon.png);
+        }
+    
+        #container-img{
+            background-image: url(/assets/images/mobile_logo.png) ;
+            width: 350px;
+            height: 350px;
+        }
+   }
+    
+
+
+    
