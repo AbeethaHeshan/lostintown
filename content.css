@@ -67,7 +67,7 @@
         }
 
         #img_logo{
-            display:none;
+            display:none  !important;
         }
 
         #mobile_img_logo{
@@ -99,7 +99,7 @@
         }
 
         #img_logo{
-            display:none;
+            display:none  !important;
         }
 
         #mobile_img_logo{
@@ -132,7 +132,7 @@
     }
 
     #img_logo{
-        display:none;
+        display:none  !important;
     }
 
     #mobile_img_logo{
@@ -164,7 +164,7 @@
     }
 
     #img_logo{
-        display:none;
+        display:none  !important;
     }
 
     #mobile_img_logo{
@@ -196,7 +196,7 @@
     }
 
     #img_logo{
-        display:none;
+        display:none  !important;
     }
 
     #mobile_img_logo{
