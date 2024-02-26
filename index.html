@@ -18,6 +18,12 @@
         .spaced-text {
               letter-spacing: 0.2em;
         }
+
+
+
+
+
+
     </style>
     <script>
         window.addEventListener('load', function() {
@@ -36,14 +42,13 @@
           
           <div class="rotated-right-4" id="banner" style="top:40px" >
             <div class="scroll-left align-center justify-center top-5" id="banner-continer" style="display: flex;">
-                <div id="cont" style="display:flex;flex-direction: row;">
-                    <div style="display: flex; flex-direction: row;" id="comming-soon-container">
+                <div id="cont" style="display:flex;flex-direction: row;" >
+                    <div style="display: flex;flex-direction: row;" id="comming-soon-container">
                         <span id="coming-soon-text"></span>  
                         <span id="coming-soon-ThreeDots" style="letter-spacing:-6px;position: relative;left: -16px;"></span>  
                         <span id="coming-soon-Dot" style="position: relative;left: -26px;"></span> 
                     </div>
                 </div>
-                
             </div>
           </div>
     </section>
@@ -60,7 +65,7 @@
             
             let parentContainer = document.getElementById("cont");
 
-            for (let i = 0; i < 60; i++) {
+            for (let i = 0; i < 10; i++) {
                 let clonedContainer = parentContainer.cloneNode(true);
                 parentContainer.parentNode.appendChild(clonedContainer);
             }
