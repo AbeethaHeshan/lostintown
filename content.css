@@ -9,7 +9,6 @@ html, body {
     overflow: scroll;
   }
 
-
   
   /* #cont{
     height: 150px;
@@ -50,7 +49,7 @@ html, body {
 
   .scroll-left {
             display: inline-block;
-            animation: scrollText 35s infinite linear; 
+            animation: scrollText 30s infinite linear; 
             position: absolute;
             overflow:hidden;
             white-space:nowrap;
@@ -62,7 +61,7 @@ html, body {
             transform: translateX(0);
         }
         100% {
-            transform: translateX(-50%);
+            transform: translateX(-30%);
         }
   }
 
