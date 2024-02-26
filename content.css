@@ -15,6 +15,7 @@
     font-family: 'PPFraktionSans-Bold';
     font-size: large;
     margin-left: 13px;
+    letter-spacing: 0.15em;
   }
 
   .scroll-left {
@@ -31,7 +32,7 @@
             transform: translateX(0);
         }
         100% {
-            transform: translateX(-10%);
+            transform: translateX(-5%);
         }
   }
 
@@ -83,6 +84,10 @@
         #banner{
             height: 25px;
           }
+
+        #banner-continer{
+            top: 3px;
+        }
    }
 
 
@@ -114,6 +119,10 @@
 
         #banner{
             height: 25px;
+        }
+
+        #banner-continer{
+            top: 3px;
         }
 
   }
@@ -149,6 +158,10 @@
         height: 25px;
     }
 
+    #banner-continer{
+        top: 3px;
+    }
+
   }
 
   @media (min-width: 425px) and (max-width:768px) {
@@ -181,6 +194,10 @@
         height: 25px;
     }
 
+    #banner-continer{
+        top: 3px;
+    }
+
   } 
 
    @media (min-width: 425px) and (max-width:768px) {
@@ -211,6 +228,10 @@
 
     #banner{
         height: 25px;
+    }
+
+    #banner-continer{
+        top: 3px;
     }
 }
 
