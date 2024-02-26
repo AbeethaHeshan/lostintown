@@ -84,9 +84,12 @@
     column-gap: 10px;
 }
 
+.top-5{
+   top:5px;
+}
   
 @font-face {
     font-family: PPFraktionSans-Bold;
-    src: url(PPFraktionSans-BoldItalic.otf);
+    src: url(PPFraktionMono-BoldItalic.ttf);
 }
   
