@@ -20,7 +20,7 @@
 
   .scroll-left {
             display: inline-block;
-            animation: scrollText 30s infinite linear; 
+            animation: scrollText 200s infinite linear; 
             position: absolute;
             overflow:hidden;
             white-space:nowrap;
@@ -32,7 +32,7 @@
             transform: translateX(0);
         }
         100% {
-            transform: translateX(-8%);
+            transform: translateX(-110%);
         }
   }
 
